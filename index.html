@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+  <title>Portfólio</title>
+</head>
+<body>
+  <main id="container-home">
+    <div class="hello"> 
+      <h3>Hello I'm</h3>
+    </div>
+
+    <div class="name">
+      <h3>Luiz Carlos</h3>
+    </div>
+
+    <div class="desc">
+      <h3>Fullstack Developer</h3>
+    </div>
+    <br>
+
+    <div class="buton-id">
+      <button id="buton-1" onclick="downloadFile()" >Download CV</button> 
+      <button id="buton-2" onclick="faleComigo()"> Fale comigo</button>
+    </div>
+
+    <div id="imagem">
+      <img src="imagens/foto-2.jpeg" alt="foto minha">
+    </div>
+    <section id="imagens">
+      <a target="_blank" href="https://github.com/luizcarlosjj"><img src="src/github.png" alt="github-icon"></a>
+      <a target="_blank" href=""><img src="src/instagram.png" alt="instagram-icon"></a>
+      <a target="_blank" href="https://www.linkedin.com/in/luiz-carlos-junior-354753204/"><img src="src/linkedin.png" alt="linkedin-icon"></a>
+    </section>
+    </div>
+  </main>
+
+  <script>
+    function downloadFile() {
+      window.location.href="files/curriculo.pdf"
+    }
+
+    function faleComigo() {
+      window.location.href="https://wa.me/5562986432931?text=Ol%C3%A1%2C+acabei+de+olhar+seu+portf%C3%B3lio%21"
+    }
+  </script>
+</body>
+</html>
